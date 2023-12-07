@@ -1,16 +1,84 @@
-h1 {
-    color: #26007c;
-    font-size: 24px;
-}
-
-p {
-    font-size: 20px;
-}
-h3 {
-  color: #0072ff;
-  font-size: 24px;
-}
-
-p {
-  font-size: 8px;
-}
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nice Fancy Cars</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+ 
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+ 
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+ 
+        h2 {
+            color: #333;
+        }
+ 
+        .car {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            transition: transform 0.3s ease-in-out;
+        }
+ 
+        .car:hover {
+            transform: scale(1.05);
+        }
+ 
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+</style>
+</head>
+ 
+<body>
+<header>
+<h1>Nice Fancy Cars</h1>
+</header>
+ 
+    <section>
+<h2>Featured Cars</h2>
+ 
+        <div class="car">
+<h3>Mclaren P1</h3>
+<p>The P1™ features a 3.8L V8 twin-turbocharged engine with a 132 kW electric motor. This hybrid power plant generates 903 bhp and 664 lb-ft of torque. Those specs allow a McLaren P1™ for sale to go from 0-62 mph in just 2.8 seconds.</p>
+<img src="https://v.wpimg.pl/Yzk0LmpwdhsKUjpeXwx7DkkKbgQZVXVYHhJ2T18UdkxfBjRCHVk4Dx9fJxgcA3cKBx8hDhwWKx8FHTxcXUV0SV0CfFtAWm1OX1UpCERFOBlSBGIHABB7Bw?auto=format&fit=crop&ar=16:9">
+</div>
+ 
+        <div class="car">
+<h3>Chevy Corvette ZO6</h3>
+<p>It has an 8,600-rpm redline, which helps you to dominate the competition. Output stands at a formidable 670 horsepower. Power is sent to the rear wheels through an eight-speed dual-clutch automatic transmission. An estimated 0-60 mph time of 2.6 seconds puts the Corvette Z06 in an elite class of sports cars.</p>
+<img src="https://www.usnews.com/object/image/00000187-05a8-d67e-a38f-2ff810260000/2023-chevrolet-corvette-z06-14.jpg?update-time=1679428714087&size=responsive640" alt="Luxury Car 2">
+</div>
+</section>
+ 
+    <footer>
+<p>&copy; 2023 Nice Fancy Cars</p>
+</footer>
+</body>
+ 
+</html>
